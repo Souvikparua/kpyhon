@@ -1,0 +1,12 @@
+# https://cloud.google.com/tpu/docs/supported-tpu-configurations#tpu_software_versions:~:text=TensorFlow%20version-,libtpu.so%20version,-2.13.0
+TENSORFLOW_VERSION=2.12.0
+TF_LIBTPU_VERSION=1.6.0
+JAX_VERSION=0.4.13
+# Supports nightly
+TORCH_VERSION=2.0.0
+# https://github.com/pytorch/audio supports nightly
+TORCHAUDIO_VERSION=2.0.0
+# https://github.com/pytorch/text supports main
+TORCHTEXT_VERSION=0.15.1
+# https://github.com/pytorch/vision supports nightly
+TORCHVISION_VERSION=0.15.1
